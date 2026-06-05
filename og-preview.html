@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1200px;height:630px;overflow:hidden;background:#06060a;font-family:'Inter',system-ui,sans-serif;position:relative}
+</style>
+</head>
+<body>
+
+<!-- bg glow -->
+<div style="position:absolute;left:340px;top:50%;transform:translateY(-50%);width:900px;height:900px;background:radial-gradient(circle,rgba(94,58,255,.22),transparent 60%);filter:blur(90px);pointer-events:none;"></div>
+
+<!-- LEFT: text -->
+<div style="position:absolute;left:0;top:0;width:480px;height:630px;padding:60px 52px;display:flex;flex-direction:column;justify-content:center;z-index:2;">
+
+  <!-- brand -->
+  <div style="display:flex;align-items:center;gap:11px;margin-bottom:44px;">
+    <svg width="26" height="29" viewBox="0 0 100 110" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M50,7 L86,28 Q90,30.5 90,35 L90,75 Q90,79.5 86,82 L50,103 L14,82 Q10,79.5 10,75 L10,35 Q10,30.5 14,28 Z"/>
+      <line x1="50" y1="27" x2="50" y2="83"/>
+      <polyline points="30,42 42,55 30,68"/>
+      <polyline points="20,45 29.3,55 20,65"/>
+      <polyline points="70,42 58,55 70,68"/>
+      <polyline points="80,45 70.7,55 80,65"/>
+    </svg>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.45);">Alkebuleum · Council</span>
+  </div>
+
+  <!-- badge -->
+  <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(139,109,255,.12);border:1px solid rgba(139,109,255,.32);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#c6b6ff;margin-bottom:26px;width:fit-content;">
+    <span style="width:5px;height:5px;border-radius:50%;background:#c6b6ff;flex-shrink:0;"></span>
+    The Council is forming
+  </div>
+
+  <!-- headline -->
+  <h1 style="font-family:'Fraunces',serif;font-weight:400;font-size:50px;line-height:1.04;letter-spacing:-.025em;color:#fff;margin-bottom:18px;">
+    Africa's<br><em style="font-style:italic;color:#c6b6ff;">Sovereign Trust</em><br>Layer
+  </h1>
+
+  <!-- sub -->
+  <p style="font-size:14.5px;line-height:1.65;color:rgba(255,255,255,.58);margin-bottom:38px;font-weight:300;max-width:340px;">
+    55 institutional seats. One equal vote.<br>Banks, universities, regulators, and governments governing digital Africa.
+  </p>
+
+  <!-- stats -->
+  <div style="display:flex;gap:32px;border-top:1px solid rgba(255,255,255,.1);padding-top:22px;">
+    <div>
+      <div style="font-family:'Fraunces',serif;font-size:30px;color:#fff;line-height:1;letter-spacing:-.02em;">55</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-top:5px;">Seats</div>
+    </div>
+    <div style="width:1px;background:rgba(255,255,255,.1);"></div>
+    <div>
+      <div style="font-family:'Fraunces',serif;font-size:30px;color:#fff;line-height:1;letter-spacing:-.02em;">8</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-top:5px;">Sectors</div>
+    </div>
+    <div style="width:1px;background:rgba(255,255,255,.1);"></div>
+    <div>
+      <div style="font-family:'Fraunces',serif;font-size:30px;color:#fff;line-height:1;letter-spacing:-.02em;">4</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-top:5px;">Pathways</div>
+    </div>
+    <div style="width:1px;background:rgba(255,255,255,.1);"></div>
+    <div>
+      <div style="font-family:'Fraunces',serif;font-size:30px;color:#fff;line-height:1;letter-spacing:-.02em;">1:1</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-top:5px;">Vote</div>
+    </div>
+  </div>
+</div>
+
+<!-- RIGHT: chamber -->
+<div style="position:absolute;right:0;top:0;width:740px;height:630px;overflow:hidden;">
+  <!-- left fade -->
+  <div style="position:absolute;left:0;top:0;width:180px;height:100%;background:linear-gradient(to right,#06060a 30%,transparent);z-index:1;pointer-events:none;"></div>
+  <!-- bottom fade -->
+  <div style="position:absolute;left:0;bottom:0;width:100%;height:120px;background:linear-gradient(to top,#06060a,transparent);z-index:1;pointer-events:none;"></div>
+
+  <svg viewBox="0 0 480 340" width="740" height="523" style="position:absolute;bottom:-10px;left:0;" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="fanGlow" cx="50%" cy="92%" r="75%">
+        <stop offset="0%" stop-color="rgba(139,109,255,.18)"/>
+        <stop offset="60%" stop-color="rgba(94,58,255,.04)"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+      <linearGradient id="lt" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#c6b6ff"/>
+        <stop offset="100%" stop-color="#7a55ff"/>
+      </linearGradient>
+      <filter id="tg" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="2" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="480" height="340" fill="url(#fanGlow)"/>
+
+    <!-- Row 0: 7 seats (front) -->
+    <path d="M170.32,283.32 L152.40,281.60 A88,88 0 0 1 161.66,249.92 L177.68,258.11 A70,70 0 0 0 170.32,283.32 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M179.41,254.95 L163.82,245.94 A88,88 0 0 1 185.42,220.97 L196.59,235.09 A70,70 0 0 0 179.41,254.95 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M199.47,232.93 L189.04,218.25 A88,88 0 0 1 219.07,204.53 L223.35,222.01 A70,70 0 0 0 199.47,232.93 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M226.87,221.24 L223.49,203.56 A88,88 0 0 1 256.51,203.56 L253.13,221.24 A70,70 0 0 0 226.87,221.24 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M256.65,222.01 L260.93,204.53 A88,88 0 0 1 290.96,218.25 L280.53,232.93 A70,70 0 0 0 256.65,222.01 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M283.41,235.09 L294.58,220.97 A88,88 0 0 1 316.18,245.94 L300.59,254.95 A70,70 0 0 0 283.41,235.09 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M302.32,258.11 L318.34,249.92 A88,88 0 0 1 327.60,281.60 L309.68,283.32 A70,70 0 0 0 302.32,258.11 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+
+    <!-- Row 1: 9 seats -->
+    <path d="M138.41,280.85 L120.48,279.24 A120,120 0 0 1 128.71,245.12 L145.40,251.85 A102,102 0 0 0 138.41,280.85 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M147.01,248.09 L130.60,240.70 A120,120 0 0 1 149.54,211.15 L163.11,222.98 A102,102 0 0 0 147.01,248.09 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M165.85,219.96 L152.77,207.60 A120,120 0 0 1 180.34,185.88 L189.29,201.50 A102,102 0 0 0 165.85,219.96 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M192.87,199.54 L184.55,183.58 A120,120 0 0 1 217.72,172.09 L221.06,189.77 A102,102 0 0 0 192.87,199.54 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M225.08,189.10 L222.45,171.29 A120,120 0 0 1 257.55,171.29 L254.92,189.10 A102,102 0 0 0 225.08,189.10 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M258.94,189.77 L262.28,172.09 A120,120 0 0 1 295.45,183.58 L287.13,199.54 A102,102 0 0 0 258.94,189.77 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M290.71,201.50 L299.66,185.88 A120,120 0 0 1 327.23,207.60 L314.15,219.96 A102,102 0 0 0 290.71,201.50 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M316.89,222.98 L330.46,211.15 A120,120 0 0 1 349.40,240.70 L332.99,248.09 A102,102 0 0 0 316.89,222.98 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M334.60,251.85 L351.29,245.12 A120,120 0 0 1 359.52,279.24 L341.59,280.85 A102,102 0 0 0 334.60,251.85 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+
+    <!-- Row 2: 11 seats -->
+    <path d="M104.50,278.29 L84.58,276.57 A156,156 0 0 1 92.23,239.99 L111.18,246.40 A136,136 0 0 0 104.50,278.29 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M112.67,242.21 L93.95,235.18 A156,156 0 0 1 111.18,202.01 L127.70,213.29 A136,136 0 0 0 112.67,242.21 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M130.27,209.66 L114.13,197.84 A156,156 0 0 1 139.66,170.55 L152.53,185.86 A136,136 0 0 0 130.27,209.66 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M155.98,183.05 L143.63,167.33 A156,156 0 0 1 175.57,147.93 L183.83,166.14 A136,136 0 0 0 155.98,183.05 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M187.92,164.37 L180.26,145.89 A156,156 0 0 1 216.25,135.82 L219.30,155.59 A136,136 0 0 0 187.92,164.37 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M223.71,154.98 L221.31,135.12 A156,156 0 0 1 258.69,135.12 L256.29,154.98 A136,136 0 0 0 223.71,154.98 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M260.70,155.59 L263.75,135.82 A156,156 0 0 1 299.74,145.89 L292.08,164.37 A136,136 0 0 0 260.70,155.59 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M296.17,166.14 L304.43,147.93 A156,156 0 0 1 336.37,167.33 L324.02,183.05 A136,136 0 0 0 296.17,166.14 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M327.47,185.86 L340.34,170.55 A156,156 0 0 1 365.87,197.84 L349.73,209.66 A136,136 0 0 0 327.47,185.86 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M352.30,213.29 L368.82,202.01 A156,156 0 0 1 386.05,235.18 L367.33,242.21 A136,136 0 0 0 352.30,213.29 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M368.82,246.40 L387.77,239.99 A156,156 0 0 1 395.42,276.57 L375.50,278.29 A136,136 0 0 0 368.82,246.40 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+
+    <!-- Row 3: 13 seats -->
+    <path d="M68.60,275.63 L48.67,273.95 A192,192 0 0 1 55.85,235.67 L75.03,241.33 A172,172 0 0 0 68.60,275.63 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M76.44,236.78 L57.42,230.59 A192,192 0 0 1 73.17,194.97 L90.55,204.87 A172,172 0 0 0 76.44,236.78 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M92.96,200.76 L75.87,190.38 A192,192 0 0 1 99.35,159.31 L114.00,172.92 A172,172 0 0 0 92.96,200.76 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M117.29,169.47 L103.02,155.46 A192,192 0 0 1 132.99,130.58 L144.14,147.19 A172,172 0 0 0 117.29,169.47 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M148.13,144.59 L137.45,127.68 A192,192 0 0 1 172.32,110.32 L179.37,129.04 A172,172 0 0 0 148.13,144.59 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M183.85,127.42 L177.33,108.52 A192,192 0 0 1 215.24,99.60 L217.82,119.44 A172,172 0 0 0 183.85,127.42 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M222.55,118.89 L220.53,98.99 A192,192 0 0 1 259.47,98.99 L257.45,118.89 A172,172 0 0 0 222.55,118.89 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M262.18,119.44 L264.76,99.60 A192,192 0 0 1 302.67,108.52 L296.15,127.42 A172,172 0 0 0 262.18,119.44 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M300.63,129.04 L307.68,110.32 A192,192 0 0 1 342.55,127.68 L331.87,144.59 A172,172 0 0 0 300.63,129.04 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M335.86,147.19 L347.01,130.58 A192,192 0 0 1 376.98,155.46 L362.71,169.47 A172,172 0 0 0 335.86,147.19 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M366.00,172.92 L380.65,159.31 A192,192 0 0 1 404.13,190.38 L387.04,200.76 A172,172 0 0 0 366.00,172.92 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M389.45,204.87 L406.83,194.97 A192,192 0 0 1 422.58,230.59 L403.56,236.78 A172,172 0 0 0 389.45,204.87 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M404.97,241.33 L424.15,235.67 A192,192 0 0 1 431.33,273.95 L411.40,275.63 A172,172 0 0 0 404.97,241.33 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+
+    <!-- Row 4: 15 seats (back) -->
+    <path d="M30.70,272.84 L10.77,271.20 A230,230 0 0 1 17.61,231.33 L36.95,236.43 A210,210 0 0 0 30.70,272.84 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M38.29,231.57 L19.08,226.01 A230,230 0 0 1 33.71,188.29 L51.65,197.13 A210,210 0 0 0 38.29,231.57 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M53.93,192.64 L36.21,183.37 A230,230 0 0 1 58.05,149.31 L73.87,161.54 A210,210 0 0 0 53.93,192.64 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M77.00,157.59 L61.48,144.98 A230,230 0 0 1 89.65,115.95 L102.72,131.08 A210,210 0 0 0 77.00,157.59 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+    <path d="M106.58,127.83 L93.87,112.39 A230,230 0 0 1 127.25,89.53 L137.06,106.96 A210,210 0 0 0 106.58,127.83 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M141.48,104.54 L132.10,86.88 A230,230 0 0 1 169.35,71.12 L175.50,90.15 A210,210 0 0 0 141.48,104.54 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M180.31,88.66 L174.63,69.49 A230,230 0 0 1 214.28,61.44 L216.51,81.32 A210,210 0 0 0 180.31,88.66 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M221.53,80.81 L219.77,60.89 A230,230 0 0 1 260.23,60.89 L258.47,80.81 A210,210 0 0 0 221.53,80.81 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M263.49,81.32 L265.72,61.44 A230,230 0 0 1 305.37,69.49 L299.69,88.66 A210,210 0 0 0 263.49,81.32 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M304.50,90.15 L310.65,71.12 A230,230 0 0 1 347.90,86.88 L338.52,104.54 A210,210 0 0 0 304.50,90.15 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M342.94,106.96 L352.75,89.53 A230,230 0 0 1 386.13,112.39 L373.42,127.83 A210,210 0 0 0 342.94,106.96 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M377.28,131.08 L390.35,115.95 A230,230 0 0 1 418.52,144.98 L403.00,157.59 A210,210 0 0 0 377.28,131.08 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M406.13,161.54 L421.95,149.31 A230,230 0 0 1 443.79,183.37 L426.07,192.64 A210,210 0 0 0 406.13,161.54 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M428.35,197.13 L446.29,188.29 A230,230 0 0 1 460.92,226.01 L441.71,231.57 A210,210 0 0 0 428.35,197.13 Z" fill="#23212f" stroke="#3a3747" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M443.05,236.43 L462.39,231.33 A230,230 0 0 1 469.23,271.20 L449.30,272.84 A210,210 0 0 0 443.05,236.43 Z" fill="url(#lt)" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round" filter="url(#tg)"/>
+
+    <!-- Podium -->
+    <rect x="212" y="266" width="56" height="26" rx="3" fill="#1a1726" stroke="#caa24a" stroke-width="1" stroke-opacity="0.6"/>
+    <g transform="translate(240,279) scale(0.17,0.17) translate(-50,-55)" opacity="0.9">
+      <path fill="none" stroke="#caa24a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M50,7 L86,28 Q90,30.5 90,35 L90,75 Q90,79.5 86,82 L50,103 L14,82 Q10,79.5 10,75 L10,35 Q10,30.5 14,28 Z"/>
+      <line stroke="#caa24a" stroke-width="4" stroke-linecap="round" x1="50" y1="27" x2="50" y2="83"/>
+      <polyline fill="none" stroke="#caa24a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="32,44 42,55 32,66"/>
+      <polyline fill="none" stroke="#caa24a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="68,44 58,55 68,66"/>
+    </g>
+    <rect x="228" y="296" width="24" height="16" rx="2.5" fill="#1a1726" stroke="#caa24a" stroke-width="0.8" stroke-opacity="0.45"/>
+  </svg>
+</div>
+
+<!-- URL stamp -->
+<div style="position:absolute;bottom:22px;right:28px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;color:rgba(255,255,255,.22);z-index:10;">council.alkebuleum.org</div>
+
+</body>
+</html>
